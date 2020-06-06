@@ -108,6 +108,7 @@ img{
 }
 figure{
     display:block;
+    margin:auto;
     width:90%;
     border:dotted 1px black;
 }
