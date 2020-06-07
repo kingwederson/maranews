@@ -73,6 +73,9 @@ header{
 h1,h2{
     text-align: center;
     padding: 10px 0;
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
 }
 
 h1{
@@ -118,6 +121,9 @@ figure{
     margin:auto;
     max-width:100%;
     border:dotted 1px black;
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
 }
 figcaption{
 	font-style: italic;
