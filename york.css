@@ -5,6 +5,9 @@ body{
     max-width:95%;
     background-color: #f9f7f1;
 }
+div#alerta{
+    display:none;
+}
 div.nivelsup{
     border-top:1px solid black;
     text-align: center;
